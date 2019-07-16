@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap:100,200,300,400,500,600,700|Dancing+Script:100,200,300,400,500,600,700');
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/logo.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    -moz-transition: all .75s ease-in-out;
+    -webkit-transition: all .75s ease-in-out;
+}
