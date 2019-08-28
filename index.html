@@ -7,43 +7,77 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <title>hog-and-truffles</title>
 </head>
 <body>
     <header>
         <!--Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Hog and truffles </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-custom ">
+     <!--Navigation Logo-->
+  <a class="navbar-logo" href="index.html">
+      <img src="assets/images/logo.jpg" alt="logo" title="hog and truffles logo"
+  </a>
+      <!--Mobile toggler-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">What We Do</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sample Menu</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Quote</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
+      <!--Navigation Links--> <!flex-row-reverse collapse">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mr-auto uppercase">
+        
+    <li class="nav-item active"
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span>
+        </a>
+    </li>
+    <li class="nav-item active"
+        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span>
+        </a>
+    </li>
+    <li class="nav-item active"
+        <a class="nav-link" href="whatwedo">What We Do <span class="sr-only">(current)</span>
+        </a>
+    </li> 
+    </li>
+    <li class="nav-item active"
+        <a class="nav-link" href="samplemenu">Sample Menu <span class="sr-only">(current)</span>
+        </a>
+    </li> 
+    <li class="nav-item active"
+        <a class="nav-link" href="gallery">Gallery <span class="sr-only">(current)</span>
+        </a>
+    </li>   
+      <li class="nav-item active"
+        <a class="nav-link" href="#blog">Blog <span class="sr-only">(current)</span>
+        </a>
+    </li>
+    <li class="nav-item active"
+        <a class="nav-link" href="#quote">Quote <span class="sr-only">(current)</span>
+        </a>
+    </li>  
+    <li class="nav-item active"
+        <a class="nav-link" href="#contactus">Contact us <span class="sr-only">(current)</span>
+        </a>
+    </li> 
+    <!-----Dropdown------->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="about">about</a>
+          <a class="dropdown-item" href="whatwedo">What We Do</a>
+          <a class="dropdown-item" href="samplemenu">Sample Menu</a>
+          <a class="dropdown-item" href="gallery">Gallery</a>
+          <a class="dropdown-item" href="blog">Blog</a>
+          <a class="dropdown-item" href="quote">Quote</a>
+          <a class="dropdown-item" href="contactus">Contact Us</a>
+          <a class="dropdown-item" href="whatwedo">What We Do</a>
+        </div>
+      
+      
     </ul>
   </div>
 </nav>
